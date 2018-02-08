@@ -216,26 +216,36 @@ These questions are meant to test what you've learned from the Python Basics tut
 
 1. Write a conditional statement with 3 conditions: when x is 10, when x is 1, and when x is anything other than 1 or 10. For each condition, have your code print what the value is or isn't.
 
-<!--- Fill you answer here. --->
-
-
-
+```python
+x = 1
+if x == 10:
+  print(str(x) + ' is 10.')
+elif x == 1:
+  print(str(x) + ' is 1.')
+else:
+  print(str(x) + ' is neither 10 nor 1.')
+```
 
 2. Write a `for` loop that takes a variable with an initial value of 0, and adds the current index to the previous value of that variable (i.e. you variable should grow in size every iteration). Perform the iteration 20 times, and have the final value be printed at the end.
 
-<!--- Fill you answer here. --->
-
-
-
-
-
-
-
-
+```python
+x=0
+for j in range(20):
+  x = x + 1
+print(x)
+```
 
 3. Using the NumPy package, calculate the value of sin(4), and use the sigfig function from the utility module in aide_design to get your answer to 3 sig-figs. *(Hint: You will need to import these packages. Remember how to do that?)*
 
-<!--- Fill you answer here. --->
+```python
+import numpy as np
+import aide_design
+from aide_design.utility import*
+#How do I find the equation for sigfigs?
+x = np.sin(4)
+print(x)
+```
+
 
 
 
