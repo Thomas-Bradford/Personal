@@ -70,6 +70,8 @@ Lists are very easy to do. For a bulleted list, use the asterisk and for a numbe
 
 * Have a regular sleep schedule.
   - Go to bed before midnight.
+    - Make many sub-bullets.
+      - Make even more sub-bullets.
 1. Have a regular sleep schedule
 2. Finish Parks and Recreation
 
