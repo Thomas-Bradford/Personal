@@ -318,7 +318,7 @@ r = 0.2 * u.m
 d = 2*r
 q = 2 * u.m**3 / u.s
 
-temp_list = [0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200]
+temp_list = np.arange(0,201,1) #Temperature range in degrees Celsius, in increments of 1, from 0 to 200
 temp_array = np.array(temp_list)
 celsius_array = temp_array
 kelvin_array = (celsius_array + 273) * u.degK
