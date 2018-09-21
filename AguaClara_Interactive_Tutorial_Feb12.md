@@ -335,7 +335,7 @@ plt.grid(which = 'major')
 plt.grid(which = 'minor')
 plt.legend(loc = 'lower right', ncol = 1)
 plt.tight_layout()
-plt.savefig('./Images/ReyKelvinPlot.png')
+#plt.savefig('./Images/ReyKelvinPlot.png')
 plt.show()
 ```
 Using a relative file path:
