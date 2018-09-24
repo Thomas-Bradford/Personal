@@ -109,8 +109,10 @@ Image with Height and Width Adjusted:
 
 1. Make an images folder in your personal repository, and import an image of your hometown or pet from that folder. Do it unformatted using the image URL and the relative file path method, then do it again but instead change the height and width of your image:
 
+Using a URL
 ![Reading,MA](https://github.com/Thomas-Bradford/Personal/blob/master/Images/ReadingMA.jpg?raw=true)
 
+Using a relative file path
 ![Reading,MA](/Images/ReadingMA.jpg)
 
 <img src ="https://github.com/Thomas-Bradford/Personal/blob/master/Images/ReadingMA.jpg?raw=true" height = 20 width = 200>
@@ -332,11 +334,11 @@ plt.grid(which = 'major')
 plt.grid(which = 'minor')
 plt.legend(loc = 'lower right', ncol = 1)
 plt.tight_layout()
-**TOMMY, figure out why this isn't working** plt.savefig('./Images/Fall2018ReynoldsKelvinPlot.png')
+# **TOMMY, figure out why this isn't working**  plt.savefig('./Images/Fall2018ReynoldsKelvinPlot.png')
 plt.show()
 ```
 Using a relative file path:
-![Plot of Reynolds Number vs Temperature in Kelvins](/Images/Fall2018ReynoldsKelvinPlot.png)
+![Plot of Reynolds Number vs Temperature in Kelvins](/Images/ReyKelvinPlot.png)
 
 # Teletype Basics
 In this section you and your team can practice using Teletype together.
