@@ -204,6 +204,8 @@ $$ ln(e) = 1^e $$
 2. For the second line, use `Hydrogen: Run and Move Down` (`Shift + Enter`).
 3. For the remaining code, highlight it with your cursor and use `Hydrogen: Run`. What is the difference between the three?
 
+Hydrogen: Run runs the indicated code, whether an individual line or a block of highlighted code. Hydrogen: Run and Move Down runs the indicated code and moves the cursor to the next line.
+
 ```python
 from aide_design.play import*
 
@@ -334,7 +336,7 @@ plt.grid(which = 'major')
 plt.grid(which = 'minor')
 plt.legend(loc = 'lower right', ncol = 1)
 plt.tight_layout()
-#plt.savefig('/Images/Fall2018ReynoldsKelvinPlot.png')
+#plt.savefig('./Images/ReyKelvinPlot.png)
 plt.show()
 ```
 Using a relative file path:
