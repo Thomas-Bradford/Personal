@@ -334,7 +334,7 @@ plt.grid(which = 'major')
 plt.grid(which = 'minor')
 plt.legend(loc = 'lower right', ncol = 1)
 plt.tight_layout()
-# **TOMMY, figure out why this isn't working**  plt.savefig('./Images/Fall2018ReynoldsKelvinPlot.png')
+#plt.savefig('/Images/Fall2018ReynoldsKelvinPlot.png')
 plt.show()
 ```
 Using a relative file path:
